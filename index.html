@@ -1,51 +1,44 @@
-<!DOCKTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
-        <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>SSYT-OFFICIAL</title>
-        <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-   <div class="container">
-   <div class="c1">
-      
-      <div class="c11">
-         <h1 class="mainhead">PICK YOUR SPOT</h1>
-         <p class="mainp">Just click the buttons below to toggle between SignIn & SignUp</p>
-      </div>
-      <div id="left"><h1 class="s1class"><span>SIGN</span><span class="su">IN</span>
-      </h1></div>
-      <div id="right"><h1 class="s2class"><span>SIGN</span><span class="su">UP</span></h1></div>
-   </div>
-   <div class="c2">
-      <form class="signup">
-         <h1 class="signup1">SIGN UP</h1>
-         <br><br><br><br>
-			<input name="username" type="text" placeholder="Username*" class="username"/>
-			
-			<input name="email" type="text" placeholder="Email*" class="username"/>
-			
-			<input name="password" type="password" placeholder="Password*" class="username"/>
-         
-         <button class="btn">Sign Up</button>
-      </form>
-      <form class="signin">
-         
-         <h1 class="signup1">SIGN IN</h1>
-         <br><br><br><br>
-         <input name="username" type="text" placeholder="Username*" class="username"/>
-			
-			<input name="password" type="password" placeholder="Password*" class="username"/>
-         
-         <button class="btn">Get Started</button>
-         
-         <br><br><br><br>
-         <a href=""><p class="signup2">Forget Password?</p></a>
-      </form>
-      
-   </div>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.image-container {
+  background-image: url("img_nature.jpg");
+  background-size: cover;
+  position: relative;
+  height: 300px;
+}
+
+.text {
+  background-color: black;
+  color: white;
+  font-size: 10vw; 
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: multiply;
+}
+</style>
+</head>
+<body>
+
+<h2>Responsive Cutout Text Effect</h2>
+
+<div class="image-container">
+  <div class="text">NATURE</div>
 </div>
-<script src="script.js"></script>
+
+<p>This example creates a cutout text/knockout text - see-through text that appears cut out on top of a background image.</p>
+<p><strong>Note:</strong> This example does not work in Internet Explorer or Edge.</p>
+
 </body>
 </html>
